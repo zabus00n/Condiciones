@@ -1,0 +1,72 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    gap: 24px;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.sticker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+input {
+    width: 100%;
+    border: solid 1px gray;
+    border-radius: 4px;
+    height: auto;
+    padding: 8px 8px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button {
+    padding: 12px 24px;
+    width: auto;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+}
+
+button:hover {
+    background-color: rgb(22, 22, 194)
+}
+
+.validation-msg {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
